@@ -50,7 +50,7 @@ const App =() => {
       {
         tasks.length > 0 ?
           (<Tasks tasks={tasks} onDelete={deleteTask} onToggle={ toggleReminder }/>) :
-          (<h3>No tasks to show</h3>)
+          (<h3>No tasks to show. Please Add task</h3>)
       }
     </div>
   );
